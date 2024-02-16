@@ -8,7 +8,9 @@
 
 <b>Modification #2</b>
 
-1. 
+1. Add another Record type to include a LicenseName for your dog. The LicenseName consists of an show name and nickname for the Dog.
+2. Modify the Dog record to include a LicenseName, breed, and weight.
+3. Update your Dog object to include a new LicenseName with the show name and nickname of your dog. 
 
 
 If you are struggling with VS code, you can add all of your code to the Java Playground here:
