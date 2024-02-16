@@ -18,7 +18,7 @@
 2. Add a <code>Cat</code> object in the <code>main</code> method and print the value to the screen.
 3. Now we want to add our animals to an <code>ArrayList</code>. In order to do this, we need an <code>Animal</code> interface.
    You can create a <code>sealed</code> interface that identifies what classes are allowed to extend it, by using
-   <code>public sealed Animal permits Dog, Cat {}
+   <code>sealed interface Animal permits Dog, Cat {}</code>
 
 If you are struggling with VS code, you can add all of your code to the Java Playground here:
 
