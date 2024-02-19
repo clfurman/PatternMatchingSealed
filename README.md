@@ -19,13 +19,30 @@
 3. Now we want to add our animals to an <code>ArrayList</code>. In order to do this, we need an <code>Animal</code> interface.
    You can create a <code>sealed</code> interface that identifies what classes are allowed to extend it, by using
    <code>sealed interface Animal permits Dog, Cat {}</code>
-4. Modify both the <code>Dog</code> and <code>Cat</code> records to implement the <code>Animal</code> interface by adding <code>implements Animal</code> after the parameter list.
-5. Create an <code>ArrayList</code> of <code>Animal</code> and add your <code>Dog</code> and <code>Cat</code> objects to the list.
-6. Print out your list. 
+4. Modify both the <code>Dog</code> and <code>Cat</code> records to implement the <code>Animal</code> interface by adding <code>implements Animal</code>
+   after the parameter list.
+6. Create an <code>ArrayList</code> of <code>Animal</code> and add your <code>Dog</code> and <code>Cat</code> objects to the list.
+7. Print out your list. 
 
 <b>Modification #4</b>
 
-1. For each <code>Animal</code> in the list print out their name. If the animal is a <code>Dog</code> print the dog's nickname. If the animal is a <code>Cat</code> print the cat's name. 
+1. For each <code>Animal</code> in the list print out their name. If the animal is a <code>Dog</code> print the dog's nickname.
+   If the animal is a <code>Cat</code> print the cat's name. Your code may look similar to this:
+
+   <img width="454" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/19e3cfa1-6f7f-46fd-96a5-da70a6d93bfc">
+
+2. Update your code to use pattern matching with <code>instanceof</code> combine the test, declaration, and typecasting into one statement.
+   Here is the code modification to update the check for the <code>Dog</code> objects:
+
+   <img width="425" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/d764f731-b9b2-4935-a6d6-d160ab191d24">
+
+   Update your code to check for <code>Cat</code> using pattern matching.
+
+3. 
+
+
+
+
 If you are struggling with VS code, you can add all of your code to the Java Playground here:
 
 <java-playground id="pg1" style="display: block;">
