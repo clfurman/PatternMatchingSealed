@@ -14,13 +14,18 @@ public class DogTester
 
         for (Animal a : animals)
         {
-            if (a instanceof Dog dog)
+            switch (a)
             {
-                System.out.println (dog.name().showName() + " is a " + dog.breed());
-            }
-            else if (a instanceof Cat cat)
-            {
-                System.out.println (cat.name() + " is a " + cat.breed());
+                case Dog (LicenseName name, _, _):
+                {                
+                    System.out.println (name.showName());
+                    break;
+                }
+                case Cat (String name, _, _):
+                {
+                    System.out.println (name);
+                    break;
+                }
             }
         }
 
