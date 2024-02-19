@@ -12,6 +12,18 @@ public class DogTester
         animals.add (c);
         System.out.println (animals);
 
+        for (Animal a : animals)
+        {
+            if (a instanceof Dog dog)
+            {
+                System.out.println (dog.name().showName() + " is a " + dog.breed());
+            }
+            else if (a instanceof Cat cat)
+            {
+                System.out.println (cat.name() + " is a " + cat.breed());
+            }
+        }
+
     }
 }
 
