@@ -1,4 +1,4 @@
-1. Download the <b>1-StarterDog</b> files and open folder in Visual Studio code.
+1. Download the <b>main</b> branch files and open folder in Visual Studio code.
 2. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
 3. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
 
