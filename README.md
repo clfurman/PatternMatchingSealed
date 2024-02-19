@@ -23,6 +23,9 @@
 5. Create an <code>ArrayList</code> of <code>Animal</code> and add your <code>Dog</code> and <code>Cat</code> objects to the list.
 6. Print out your list. 
 
+<b>Modification #4</b>
+
+1. For each <code>Animal</code> in the list print out their name. If the animal is a <code>Dog</code> print the dog's nickname. If the animal is a <code>Cat</code> print the cat's name. 
 If you are struggling with VS code, you can add all of your code to the Java Playground here:
 
 <java-playground id="pg1" style="display: block;">
