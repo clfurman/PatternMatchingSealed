@@ -30,19 +30,19 @@
 
 <b>Modification #4</b>
 
-1. For each <code>Animal</code> in the list print out their name. If the animal is a <code>Dog</code> print the dog's nickname.
-   If the animal is a <code>Cat</code> print the cat's name. Your code may look similar to this:
+1. For each <code>Animal</code> in the list print out their name. If the animal is a <code>Dog</code> print the dog's show
+   name. If the animal is a <code>Cat</code> print the cat's name. Your code may look similar to this:
 
    <img width="454" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/19e3cfa1-6f7f-46fd-96a5-da70a6d93bfc">
 
-2. Update your code to use pattern matching with <code>instanceof</code> combine the test, declaration, and typecasting into one statement.
+3. Update your code to use pattern matching with <code>instanceof</code> combine the test, declaration, and typecasting into one statement.
    Here is the code modification to update the check for the <code>Dog</code> objects:
 
    <img width="425" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/d764f731-b9b2-4935-a6d6-d160ab191d24">
 
    Update your code to check for <code>Cat</code> using pattern matching.
 
-3. The solution to this modification can be found in <b>5-PatternMatchingIfStatement</b> files.
+4. The solution to this modification can be found in <b>5-PatternMatchingIfStatement</b> files.
 
 <b>Modification #5</b>
 1. Consider a list with many different types of animals beyond just <code>Dog</code> and <code>Cat</code>.
