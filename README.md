@@ -5,6 +5,7 @@
 <b>Modification #1</b>
 1. Add a <code>Dog</code> record with meaningful names for the Dog's name, breed, and weight.
 2. Add a <code>Dog</code> object in the main method and print the value to the screen.
+3. The solution to this modification can be found in 
 
 <b>Modification #2</b>
 
