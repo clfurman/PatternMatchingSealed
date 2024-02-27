@@ -16,7 +16,7 @@ public class DogTester
         {
             switch (a)
             {
-                //uses type matching to declare dog and assign it to (Dog)a
+                //uses pattern matching to declare dog and assign it to (Dog)a
                 case Dog dog: 
                 {                
                     System.out.println (dog.name().showName());
