@@ -50,12 +50,16 @@
    Because we created <code>Animal</code> as a <code>sealed interface</code> we do not need to include a
    <code>default</code> branch to our <code>switch</code> statement. Your code might look similar to the following:
 
-   <img width="484" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/4fdb1368-5e9b-4b96-ac32-059327a5f536">
+   <img width="484" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/4fdb1368-5e9b-4b96-ac32-059327a5f536
 
-2. Use unnamed variables and pattern matching and to store the name instance variables for both the <code>Dog</code> and
+2. The solution to this modification can be found in <b>6-PatternMatchingSwitchStatement</b> files.
+
+<b>Modification #6 </b>
+
+1. We can use unnamed variables and pattern matching and to store the name instance variables for both the <code>Dog</code> and
    <code>Cat</code> objects. You can do this by changing the case statement to <code>case Dog(LicenseName name, _, _):</code>
    Since we aren't using the values of <code>breed</code> and <code>weight</code> we do not need to store them.
-3. The solution to this modification can be found in <b>6-PatternMatchingSwitchStatement</b> files.
+2. The solution to this modification can be found in <b>7-PatternMatchingSwitchStatementwithUnnamedVar</b> files.
 
 
 
