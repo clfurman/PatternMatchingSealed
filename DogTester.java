@@ -14,6 +14,7 @@ public class DogTester
 
         for (Animal a : animals)
         {
+            //Pattern matching used to declare and assign the variable dog to (Dog)a
             if (a instanceof Dog dog)
             {
                 System.out.println (dog.name().showName() + " is a " + dog.breed());
@@ -22,6 +23,7 @@ public class DogTester
             {
                 System.out.println (cat.name() + " is a " + cat.breed());
             }
+            //since Animal is sealed, no default is needed. The only cases are Dog and Cat.
         }
 
     }
@@ -30,6 +32,7 @@ public class DogTester
 record Dog (LicenseName name, String breed, double weight) implements Animal{}
 record Cat (String name, String breed, double weight) implements Animal{}
 
+//sealed interface means only Dog and Cat can implement Animal
 sealed interface Animal permits Dog, Cat{}
 
 record LicenseName (String showName, String nickName) {} 
