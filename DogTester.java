@@ -16,7 +16,8 @@ public class DogTester
         {
             switch (a)
             {
-                case Dog (LicenseName name, _, _):
+                //since breed and weight are not being used, we don't need to store these values
+                case Dog (LicenseName name, _, _): 
                 {                
                     System.out.println (name.showName());
                     break;
@@ -26,6 +27,7 @@ public class DogTester
                     System.out.println (name);
                     break;
                 }
+                //since Animal is sealed, no default is needed. The only cases are Dog and Cat
             }
         }
 
@@ -35,6 +37,7 @@ public class DogTester
 record Dog (LicenseName name, String breed, double weight) implements Animal{}
 record Cat (String name, String breed, double weight) implements Animal{}
 
+//sealed interface means that only Dog and Cat can implement Animal
 sealed interface Animal permits Dog, Cat{}
 
 record LicenseName (String showName, String nickName) {} 
