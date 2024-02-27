@@ -61,6 +61,12 @@
    Since we aren't using the values of <code>breed</code> and <code>weight</code> we do not need to store them.
 2. The solution to this modification can be found in <b>7-PatternMatchingSwitchStatementUnnamedVar</b> files.
 
+<b>Extension </b>
+1. Update the <code>Animal</code> interface to permit additional animals of your choice.
+2. Add a record for your new animal.
+3. Create additional objects of your new <code>Animal</code> type record and add them to your <code>ArrayList</code>
+4. Update your switch statement to deal with your new <code>Animal</code> object, making the switch statement exhaustive. 
+
 
 
 
