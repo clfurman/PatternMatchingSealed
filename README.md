@@ -50,7 +50,7 @@
    Because we created <code>Animal</code> as a <code>sealed interface</code> we do not need to include a
    <code>default</code> branch to our <code>switch</code> statement. Your code might look similar to the following:
 
-   <img width="484" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/4fdb1368-5e9b-4b96-ac32-059327a5f536>
+   <img width="484" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/4fdb1368-5e9b-4b96-ac32-059327a5f536">
 
 2. The solution to this modification can be found in <b>6-PatternMatchingSwitchStatement</b> files.
 
