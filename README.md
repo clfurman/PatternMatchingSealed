@@ -1,3 +1,26 @@
+<b>Getting Set-Up</b>
+1. Create a new repository from this template by clicking on the green Use this template button and selecting
+   Create a new respository.
+
+   <img width="501" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/884e64b4-f9bc-4680-8ead-ee2bc1ef121a">
+
+   <img width="148" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/43dce32c-1ef1-4c83-a4d5-cc41ab092137">
+
+ 
+2. On the <b>Create a new repository</b> page, select your GitHub username for the <b>Owner</b> and add in a name for your repository.
+
+   <img width="546" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/f05e0df9-a393-441e-9c93-93407f65567c">
+
+3. If you want to include the solution files as well, you will want to select <b>Include all branches</b>.
+
+   <img width="421" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/3b14efda-3848-43d8-a04f-031261ad7123">
+
+
+4. Then click the green <b>Create repository</b> button to create a new repository using the template repository.
+5. In Visual Studio Code, click on the <b>Source Control</b> tab, then click <b>Clone Repository</b>.
+
+
+
 1. Download the <b>main</b> branch files and open folder in Visual Studio code.
 2. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
 3. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
