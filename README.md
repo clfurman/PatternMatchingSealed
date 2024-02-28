@@ -27,15 +27,13 @@
 
    <img width="247" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/22a58636-7edc-4478-a759-c50dfeeaedf3">
 
-7. Paste the respository URL into the Visual Studio search window.
+7. Paste the respository URL into the Visual Studio search window. You'll be prompted to choose the location to store the files and whether or not you trust
+   the authors of the folder. 
 
    <img width="478" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/93d623e8-1c87-4dac-82a2-590dc8748568">
 
-8. 
-
-1. Download the <b>main</b> branch files and open folder in Visual Studio code.
-2. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
-3. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
+8. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
+9. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
 
 <b>Modification #1</b>
 1. Add a <code>Dog</code> record with meaningful names for the Dog's name, breed, and weight.
