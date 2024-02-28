@@ -42,6 +42,8 @@
 2. Add a <code>Dog</code> object in the main method and print the value to the screen.
 3. The solution to this modification can be found in <b>2-SimpleDogRecord</b> files.
 
+<hr>
+
 <b>Modification #2</b>
 
 1. Add a <code>LicenseName</code> record that consists of an show name and nickname for a dog.
@@ -49,6 +51,8 @@
 3. Update your <code>Dog</code> object to include a <code>new LicenseName</code> with the show name
    and nickname of your dog.
 4. The solution to this modification can be found in <b>3-LicenseRecord</b> files.
+
+<hr>
 
 <b>Modification #3</b>
 
@@ -62,6 +66,8 @@
 6. Create an <code>ArrayList</code> of <code>Animal</code> and add your <code>Dog</code> and <code>Cat</code> objects to the list.
 7. Print out your list.
 8. The solution to this modification can be found in <b>4-AnimalInterface</b> files.
+
+<hr>
 
 <b>Modification #4</b>
 
@@ -79,6 +85,8 @@
 
 4. The solution to this modification can be found in <b>5-PatternMatchingIfStatement</b> files.
 
+<hr>
+
 <b>Modification #5</b>
 1. Consider a list with many different types of animals beyond just <code>Dog</code> and <code>Cat</code>.
    We could continue our <code>if</code> branching, but a better way would be to use a <code>switch</code> statement instead.
@@ -89,12 +97,16 @@
 
 2. The solution to this modification can be found in <b>6-PatternMatchingSwitchStatement</b> files.
 
+<hr>
+
 <b>Modification #6 </b>
 
 1. We can use unnamed variables and pattern matching and to store the name instance variables for both the <code>Dog</code> and
    <code>Cat</code> objects. You can do this by changing the case statement to <code>case Dog(LicenseName name, _, _):</code>
    Since we aren't using the values of <code>breed</code> and <code>weight</code> we do not need to store them.
 2. The solution to this modification can be found in <b>7-PatternMatchingSwitchStatementUnnamedVar</b> files.
+
+<hr>
 
 <b>Extension </b>
 1. Update the <code>Animal</code> interface to permit additional animals of your choice.
