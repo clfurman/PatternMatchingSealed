@@ -19,6 +19,8 @@
 4. Then click the green <b>Create repository</b> button to create a new repository using the template repository.
 5. In Visual Studio Code, click on the <b>Source Control</b> tab, then click <b>Clone Repository</b>.
 
+<img width="247" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/22a58636-7edc-4478-a759-c50dfeeaedf3">
+
 
 
 1. Download the <b>main</b> branch files and open folder in Visual Studio code.
