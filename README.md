@@ -17,11 +17,21 @@
 
 
 4. Then click the green <b>Create repository</b> button to create a new repository using the template repository.
-5. In Visual Studio Code, click on the <b>Source Control</b> tab, then click <b>Clone Repository</b>.
 
-<img width="247" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/22a58636-7edc-4478-a759-c50dfeeaedf3">
+5. Once the new respository is create, copy the URL to use in Visual Studio Code.
+
+   <img width="341" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/d1be1a60-5248-41b9-95e8-140f5ee95cef">
 
 
+6. In Visual Studio Code, click on the <b>Source Control</b> tab, then click <b>Clone Repository</b>.
+
+   <img width="247" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/22a58636-7edc-4478-a759-c50dfeeaedf3">
+
+7. Paste the respository URL into the Visual Studio search window.
+
+   <img width="478" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/93d623e8-1c87-4dac-82a2-590dc8748568">
+
+8. 
 
 1. Download the <b>main</b> branch files and open folder in Visual Studio code.
 2. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
