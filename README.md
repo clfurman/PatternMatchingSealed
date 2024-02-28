@@ -35,6 +35,11 @@
 8. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
 9. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
 
+.col-sm-4 h4 {
+    display: inline-flex;
+    align-items: center;
+}
+
 <b>Modification #1</b>
 1. Add a <code>Dog</code> record with meaningful names for the Dog's name, breed, and weight.
 2. Add a <code>Dog</code> object in the main method and print the value to the screen.
