@@ -1,7 +1,7 @@
 <b>Getting Set-Up</b>
 
 Before we start, Visual Studio Code will often try to be helpful and pop up additional extensions to load. Some extensions interfere with others, so use caution 
-when installing more extensions. Here is an example: 
+when installing more extensions. Here is an example of a suggested extension that I ignored: 
 
   <img width="357" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/046afd4d-2ce2-43cd-a97e-50c17c0539d8">
 
