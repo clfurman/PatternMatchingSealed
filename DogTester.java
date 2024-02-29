@@ -23,7 +23,7 @@ public class DogTester
             {
                 System.out.println (cat.name() + " is a " + cat.breed());
             }
-            //since Animal is sealed, no default is needed. The only cases are Dog and Cat.
+           
         }
 
     }
