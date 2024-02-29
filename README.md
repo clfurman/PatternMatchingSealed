@@ -1,4 +1,11 @@
 <b>Getting Set-Up</b>
+
+Before we start, Visual Studio Code will often try to be helpful and pop up additional extensions to load. Some extensions interfere with others, so use caution 
+when installing more extensions. Here is an example: 
+
+    <img width="358" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/8f82a84b-9ec6-4c94-9615-b24d9f097800">
+
+
 1. Create a new repository from this template by clicking on the green Use this template button and selecting
    Create a new respository.
 
