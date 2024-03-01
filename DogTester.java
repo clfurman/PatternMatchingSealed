@@ -1,8 +1,7 @@
 import java.util.*;
-public class DogTester
-{
-    public static void main (String [] args)
-    {
+
+public class DogTester {
+    public static void main (String [] args) {
         ArrayList<Animal> animals = new ArrayList<Animal>();
 
         System.out.println ("Let\'s simulate a vet office.");
@@ -11,13 +10,20 @@ public class DogTester
         animals.add (d);
         animals.add (c);
         System.out.println (animals);
-
     }
 }
+sealed interface Animal permits Dog, Cat {
+}
 
-record Dog (LicenseName name, String breed, double weight) implements Animal{}
-record Cat (String name, String breed, double weight) implements Animal{}
 
-sealed interface Animal permits Dog, Cat{}
+record LicenseName (String showName, String nickName) {
+} 
 
-record LicenseName (String showName, String nickName) {} 
+record Dog (LicenseName name, String breed, double weight) implements Animal {
+}
+
+record Cat (String name, String breed, double weight) implements Animal {
+}
+
+
+
