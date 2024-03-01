@@ -115,11 +115,17 @@ when installing more extensions. Here is an example of a suggested extension tha
 
 <hr>
 
+<b>To see how all of this would have been written differently using Java 8 features, please go here: https://github.com/clfurman/PatternMatchingJava8 </b>
+
+<hr>
+
 <b>Extension </b>
-1. Update the <code>Animal</code> interface to permit additional animals of your choice.
-2. Add a record for your new animal.
-3. Create additional objects of your new <code>Animal</code> type record and add them to your <code>ArrayList</code>
-4. Update your switch statement to deal with your new <code>Animal</code> object, making the switch statement exhaustive. 
+1. Update the switch case to use lambda notation. The solution to this extension can be found in <b>8-PatternMatchingSwitchStatementUnnamedVarLambda</b> files.
+2. Update the <code>Animal</code> interface to permit additional animals of your choice.
+3. Add a record for your new animal.
+4. Create additional objects of your new <code>Animal</code> type record and add them to your <code>ArrayList</code>
+5. Update your switch statement to deal with your new <code>Animal</code> object, making the switch statement exhaustive.
+ 
 
 
 
